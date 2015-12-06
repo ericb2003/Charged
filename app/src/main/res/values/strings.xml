@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Charged</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_charging">Battery Charging</string>
+    <string name="str_notcharging">Not Charging</string>
+    <string name="preference_file_key">com.markbusman.Charged.PREFERENCE_FILE_KEY</string>
+    <string name="warningLevel_preference_key">com.markbusman.Charged.warningLevelKey</string>
+    <string name="alertSound_preference_key">com.markbusman.Charged.alertSoundKey</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_battery_status">Display Battery Status</string>
+    <string name="pref_description_battery_status">Shows the battery charge level graphically in the app.
+    </string>
+
+    <string name="pref_title_resume_on_restart">Resume on Device Restart</string>
+    <string name="pref_description_resume_on_restart">Resumes monitoring of the battery on restart if the device is connected to a power source.
+    </string>
+
+    <!--
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    -->
+
+
+    <!-- Example settings for Data & Sync -->
+    <!--<string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>-->
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_power_status">Display Power Status Alerts</string>
+    <string name="pref_description_power_status">Shows an alert when the device is plugged/unplugged from a power source.
+    </string>
+
+    <string name="pref_title_use_vibration">Vibrate Alerts</string>
+    <string name="pref_description_use_vibration">Vibrates device when the desired battery charge level is reached.
+    </string>
+
+    <string name="pref_title_soundfile">Alert Sound</string>
+    <string name="pref_description_soundfile">The sound played when the desired battery charge level is reached.
+    </string>
+
+    <string-array name="pref_alerttones_list_titles">
+        <item>Airhorn</item>
+        <item>Applause</item>
+        <item>Door Bell</item>
+        <item>Helicopter Fly By</item>
+        <item>Mountain Lion Roar</item>
+        <item>Tornado Siren</item>
+    </string-array>
+    <string-array name="pref_alerttones_list_values">
+        <item>airhorn</item>
+        <item>applause</item>
+        <item>doorbell</item>
+        <item>helicopter</item>
+        <item>mountainlion</item>
+        <item>tornadosiren</item>
+    </string-array>
+
+    <string name="pref_title_alerttype">When To Alert</string>
+    <string name="pref_description_alerttype">Set when you want the monitor to alert you when the battery charge reaches your desired level.</string>
+    <string-array name="pref_alerttype_titles">
+        <item>Never</item>
+        <item>Only At Level Set</item>
+        <item>At and Above Level Set</item>
+    </string-array>
+    <string-array name="pref_alerttype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="pref_title_message">Alert Message</string>
+    <string name="pref_description_message">The message to display when the desired battery charge level is reached.
+    </string>
+    <string name="pref_default_message">Your battery has reached the charge level set.</string>
+
+
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+
+
+</resources>

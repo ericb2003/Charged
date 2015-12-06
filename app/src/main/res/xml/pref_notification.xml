@@ -1,0 +1,59 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:key="notifications_power_alert_switch"
+        android:title="@string/pref_title_power_status"
+        android:summary="@string/pref_description_power_status"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="notifications_vibrate_switch"
+        android:title="@string/pref_title_vibrate"
+        android:summary="@string/pref_description_use_vibration"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="notifications_sound"
+        android:title="@string/pref_title_soundfile"
+        android:summary="@string/pref_description_soundfile"
+        android:entries="@array/pref_alerttones_list_titles"
+        android:entryValues="@array/pref_alerttones_list_values"
+        android:defaultValue="airhorn"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:key="notifications_message"
+        android:title="@string/pref_title_message"
+        android:defaultValue="@string/pref_default_message"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapSentences"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <!--<RingtonePreference
+        android:dependency="notifications_new_message"
+        android:key="notifications_new_message_ringtone"
+        android:title="@string/pref_title_ringtone"
+        android:ringtoneType="notification"
+        android:defaultValue="content://settings/system/notification_sound" />
+    -->
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!--<SwitchPreference
+        android:dependency="notifications_new_message"
+        android:key="notifications_new_message_vibrate"
+        android:title="@string/pref_title_vibrate"
+        android:defaultValue="true" />
+    -->
+
+</PreferenceScreen>
